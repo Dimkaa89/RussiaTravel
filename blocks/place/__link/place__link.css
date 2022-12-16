@@ -1,0 +1,53 @@
+.place__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  bottom: 5px;
+  position: absolute;
+}
+
+.place__link:hover {
+  text-decoration: none;
+  opacity: 1;
+  color: #aaaaaa;
+}
+
+@media screen and (max-width: 425px) and (min-width: 320px) {
+  .place__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #ffffff;
+    bottom: 5px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .place__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #ffffff;
+    bottom: 1px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .place__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #ffffff;
+    bottom: 6px;
+    position: absolute;
+  }
+}
